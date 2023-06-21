@@ -27,7 +27,7 @@ app.use(cors());
 
 //Definir rutas
 app.get('/',(req,res)=>{
-    res.render('index');
+    res.render('categorias');
 });
 
 app.get('/login',(req,res)=>{
